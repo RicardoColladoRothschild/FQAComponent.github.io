@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  margin-top: 85px;
+  margin-top: 120px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ main {
   align-items: center;
   width: 320px;
   min-width: 300px;
-  height: 500px;
+  height: auto;
   /*change background*/
   background-color: white;
   border-radius: 27px;
@@ -57,4 +57,33 @@ main h1 {
   font-weight: 600;
   font-family: "Kumbh-sans";
   margin-bottom: 35px;
+}
+main .question-container {
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+main .question-container .question-container--box {
+  height: auto;
+  padding: 6px;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+main .question-container .question-container--box .question-container--question {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: hsl(237, 12%, 33%);
+  margin-bottom: 6px;
+}
+main .question-container .question-container--box .question-container--answear {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: hsl(240, 6%, 50%);
+  margin-bottom: 6px;
+}
+main .question-container .lastBox {
+  margin-bottom: 12px;
 }
