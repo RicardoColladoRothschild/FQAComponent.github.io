@@ -39,7 +39,7 @@ main {
   /*change background*/
   background-color: white;
   border-radius: 27px;
-  box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 12px 55px 21px rgba(0, 0, 0, 0.2);
 }
 main .image-container {
   top: -107px;

@@ -35,7 +35,7 @@ body{
     display:grid;
     justify-content: center;
     align-items:center;
-    background-color: $soft-violet;
+    background-color:$soft-violet;
 }
 
 main{
@@ -51,9 +51,9 @@ main{
     min-width:300px;
     height:500px;
     /*change background*/
-    background-color: white;
+    background-color:white;
     border-radius: 27px;
-    box-shadow: 24px 24px 24px rgba(0,0,0,0.2);
+    box-shadow: 12px 55px 21px rgba(0,0,0,0.2);
     
     .image-container{
         top:-107px;
