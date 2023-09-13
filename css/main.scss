@@ -85,13 +85,25 @@ main{
                 height:auto;
                 padding:6px;
                 border-bottom: 1px solid $dividers;
+                    div{
+                        display:flex;
+                            span{
+                                width:8px;
+                                height:8px;
+                                background-image: url('../img/icon-arrow-down.svg');
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-position: center;
+                            }
 
+                    }
                     .question-container--question{
                         font-size:1.3rem;
                         line-height: 1.8rem;
                         font-weight: 400;
                         color:$veryDark;
                         margin-bottom:6px;
+                        margin-right:8px;
                         
                     }
                     .question-container--answear{

@@ -70,12 +70,24 @@ main .question-container .question-container--box {
   padding: 6px;
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+main .question-container .question-container--box div {
+  display: flex;
+}
+main .question-container .question-container--box div span {
+  width: 8px;
+  height: 8px;
+  background-image: url("../img/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 main .question-container .question-container--box .question-container--question {
   font-size: 1.3rem;
   line-height: 1.8rem;
   font-weight: 400;
   color: hsl(237, 12%, 33%);
   margin-bottom: 6px;
+  margin-right: 8px;
 }
 main .question-container .question-container--box .question-container--answear {
   margin-top: 10px;
