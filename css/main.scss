@@ -1,0 +1,24 @@
+/*Variables*/
+$soft-violet:hsl(273, 75%, 66%);
+$soft-blue:hsl(240, 73%, 65%);
+
+/*Text colors (neutral)*/
+$veryDark:hsl(237, 12%, 33%);
+$dark-grayish:hsl(240, 6%, 50%);
+$dividers: hsl(240, 5%, 91%);
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+html{
+    font-size:65.2%;
+}
+
+body{
+    display:grid;
+    place-items: center;
+}
+
