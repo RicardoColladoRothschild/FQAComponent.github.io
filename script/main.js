@@ -10,7 +10,13 @@ const questionsArray = Array.from(questions);
 
 arrowsElements.forEach((element)=>showingAnswers(element));
 
+questions.forEach(function (element){
+    element.addEventListener('click',()=>{
+        const temp = answeArray[questionsArray.indexOf(element)];
+        temp.classList.toggle('inactive');       
+    });
 
+});
 
 
 
