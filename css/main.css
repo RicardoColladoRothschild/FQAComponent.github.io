@@ -63,7 +63,9 @@ main .question-container {
   padding: 3px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+}
+main .question-container .inactive {
+  display: none;
 }
 main .question-container .question-container--box {
   height: auto;
@@ -73,13 +75,18 @@ main .question-container .question-container--box {
 main .question-container .question-container--box div {
   display: flex;
 }
+main .question-container .question-container--box div p {
+  width: 85%;
+}
 main .question-container .question-container--box div span {
-  width: 8px;
-  height: 8px;
+  margin-left: 8px;
+  width: 12px;
+  height: 12px;
   background-image: url("../img/icon-arrow-down.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  cursor: pointer;
 }
 main .question-container .question-container--box .question-container--question {
   font-size: 1.3rem;
