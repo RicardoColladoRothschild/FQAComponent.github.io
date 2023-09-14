@@ -20,6 +20,7 @@ questions.forEach(function (element){
 
         const tempQ = questionsArray[questionsArray.indexOf(element)];
         tempQ.classList.toggle('boldQuestion');
+        
     });
 
 });
@@ -37,9 +38,29 @@ function showingAnswers(element){
         temp.classList.toggle('inactive');
         const tempQ = questionsArray[elementsAsArray.indexOf(element)];
         tempQ.classList.toggle('boldQuestion');
-       
+
+        let currentPos = elementsAsArray.indexOf(element);
+        console.log(currentPos);
+        switch(currentPos){
+            case 1:
+                let a1 = document.querySelector('a1');
+                a1.classList.add('inactive');
+                console.log(a1);
+                break;
+        }
     });
 }
 
 
 /** */
+
+let elementsAnsObject = [
+    
+        ,
+        document.querySelector('a2'),
+        document.querySelector('a3'),
+        document.querySelector('a4'),
+        document.querySelector('a5')
+    
+];
+
