@@ -6,9 +6,16 @@ const answeArray = Array.from(answerElements);
 
 const questions = document.querySelectorAll('.question-container--question');
 const questionsArray = Array.from(questions);
-console.log(typeof arrowsElements);
-let lastPress;
-arrowsElements.forEach(function (element){
+
+
+arrowsElements.forEach((element)=>showingAnswers(element));
+
+
+
+
+
+
+function showingAnswers(element){
     element.addEventListener('click',()=>{
         
             
@@ -19,7 +26,4 @@ arrowsElements.forEach(function (element){
         tempQ.classList.toggle('boldQuestion');
        
     });
-});
-console.log(arrowsElements);
-
-function showingAnswers(0);
+}
