@@ -39,15 +39,7 @@ function showingAnswers(element){
         const tempQ = questionsArray[elementsAsArray.indexOf(element)];
         tempQ.classList.toggle('boldQuestion');
 
-        let currentPos = elementsAsArray.indexOf(element);
-        console.log(currentPos);
-        switch(currentPos){
-            case 1:
-                let a1 = document.querySelector('a1');
-                a1.classList.add('inactive');
-                console.log(a1);
-                break;
-        }
+        
     });
 }
 
