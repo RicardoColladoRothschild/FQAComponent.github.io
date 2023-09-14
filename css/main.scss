@@ -83,6 +83,7 @@ main{
             .inactive{
                 display:none;
             }
+            
             .question-container--box{
                 height:auto;
                 padding:6px;
@@ -92,6 +93,14 @@ main{
 
                         p{
                             width:85%;
+                            &:hover{
+                                color:#F47B56;
+                                cursor: pointer;
+                            }
+                        }
+                        .boldQuestion{
+                            font-weight: bold;
+                            color:black;
                         }
                             span{
                                 margin-left: 8px;

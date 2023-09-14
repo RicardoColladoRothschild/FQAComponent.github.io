@@ -78,6 +78,14 @@ main .question-container .question-container--box div {
 main .question-container .question-container--box div p {
   width: 85%;
 }
+main .question-container .question-container--box div p:hover {
+  color: #F47B56;
+  cursor: pointer;
+}
+main .question-container .question-container--box div .boldQuestion {
+  font-weight: bold;
+  color: black;
+}
 main .question-container .question-container--box div span {
   margin-left: 8px;
   width: 12px;
