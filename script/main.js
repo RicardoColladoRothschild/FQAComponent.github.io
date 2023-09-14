@@ -12,19 +12,26 @@ arrowsElements.forEach((element)=>showingAnswers(element));
 
 questions.forEach(function (element){
     element.addEventListener('click',()=>{
+        
+        elementsAsArray[questionsArray.indexOf(element)].classList.toggle('arrowReverse');
+
         const temp = answeArray[questionsArray.indexOf(element)];
         temp.classList.toggle('inactive');       
+
+        const tempQ = questionsArray[questionsArray.indexOf(element)];
+        tempQ.classList.toggle('boldQuestion');
     });
 
 });
 
 
-
+/**arrowReverse */
 
 function showingAnswers(element){
     element.addEventListener('click',()=>{
         
-            
+        element.classList.toggle('arrowReverse');
+
         const temp = answeArray[elementsAsArray.indexOf(element)];
         
         temp.classList.toggle('inactive');
@@ -33,3 +40,6 @@ function showingAnswers(element){
        
     });
 }
+
+
+/** */
