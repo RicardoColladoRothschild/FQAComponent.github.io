@@ -78,18 +78,106 @@ function checkOpen(index){
                 elementsAsArray[3].classList.remove('arrowReverse');
                 questionsArray[3].classList.remove('boldQuestion');
             }
-            if(!answeArray[3].classList.contains('inactive')){
-                answeArray[3].classList.add('inactive');
-                elementsAsArray[4].classList.remove('arrowReverse');
-                questionsArray[4].classList.remove('boldQuestion');
-            }
             if(!answeArray[4].classList.contains('inactive')){
                 answeArray[4].classList.add('inactive');
                 elementsAsArray[4].classList.remove('arrowReverse');
                 questionsArray[4].classList.remove('boldQuestion');
             }
-                                             
+                                                         
             break;
+        case 1:
+                if(!answeArray[0].classList.contains('inactive')){
+                    answeArray[0].classList.add('inactive');
+                    elementsAsArray[0].classList.remove('arrowReverse');
+                    questionsArray[0].classList.remove('boldQuestion');
+                }
+                if(!answeArray[2].classList.contains('inactive')){
+                    answeArray[2].classList.add('inactive');
+                    elementsAsArray[2].classList.remove('arrowReverse');
+                    questionsArray[2].classList.remove('boldQuestion');
+                }
+                if(!answeArray[3].classList.contains('inactive')){
+                    answeArray[3].classList.add('inactive');
+                    elementsAsArray[3].classList.remove('arrowReverse');
+                    questionsArray[3].classList.remove('boldQuestion');
+                }
+                if(!answeArray[4].classList.contains('inactive')){
+                    answeArray[4].classList.add('inactive');
+                    elementsAsArray[4].classList.remove('arrowReverse');
+                    questionsArray[4].classList.remove('boldQuestion');
+                }
+                                                                
+                break;    
+            case 2:
+                    if(!answeArray[0].classList.contains('inactive')){
+                        answeArray[0].classList.add('inactive');
+                        elementsAsArray[0].classList.remove('arrowReverse');
+                        questionsArray[0].classList.remove('boldQuestion');
+                    }
+                    if(!answeArray[1].classList.contains('inactive')){
+                        answeArray[1].classList.add('inactive');
+                        elementsAsArray[1].classList.remove('arrowReverse');
+                        questionsArray[1].classList.remove('boldQuestion');
+                    }
+                    if(!answeArray[3].classList.contains('inactive')){
+                        answeArray[3].classList.add('inactive');
+                        elementsAsArray[3].classList.remove('arrowReverse');
+                        questionsArray[3].classList.remove('boldQuestion');
+                    }
+                    if(!answeArray[4].classList.contains('inactive')){
+                        answeArray[4].classList.add('inactive');
+                        elementsAsArray[4].classList.remove('arrowReverse');
+                        questionsArray[4].classList.remove('boldQuestion');
+                    }
+                                                     
+                    break;     
+                case 3:
+                        if(!answeArray[0].classList.contains('inactive')){
+                            answeArray[0].classList.add('inactive');
+                            elementsAsArray[0].classList.remove('arrowReverse');
+                            questionsArray[0].classList.remove('boldQuestion');
+                        }
+                        if(!answeArray[1].classList.contains('inactive')){
+                            answeArray[1].classList.add('inactive');
+                            elementsAsArray[1].classList.remove('arrowReverse');
+                            questionsArray[1].classList.remove('boldQuestion');
+                        }
+                        if(!answeArray[2].classList.contains('inactive')){
+                            answeArray[2].classList.add('inactive');
+                            elementsAsArray[2].classList.remove('arrowReverse');
+                            questionsArray[2].classList.remove('boldQuestion');
+                        }
+                        if(!answeArray[4].classList.contains('inactive')){
+                            answeArray[4].classList.add('inactive');
+                            elementsAsArray[4].classList.remove('arrowReverse');
+                            questionsArray[4].classList.remove('boldQuestion');
+                        }
+                                                               
+                        break;    
+                    case 4:
+                            if(!answeArray[0].classList.contains('inactive')){
+                                answeArray[0].classList.add('inactive');
+                                elementsAsArray[0].classList.remove('arrowReverse');
+                                questionsArray[0].classList.remove('boldQuestion');
+                            }
+                            if(!answeArray[1].classList.contains('inactive')){
+                                answeArray[1].classList.add('inactive');
+                                elementsAsArray[1].classList.remove('arrowReverse');
+                                questionsArray[1].classList.remove('boldQuestion');
+                            }
+                            if(!answeArray[2].classList.contains('inactive')){
+                                answeArray[2].classList.add('inactive');
+                                elementsAsArray[2].classList.remove('arrowReverse');
+                                questionsArray[2].classList.remove('boldQuestion');
+                            }
+                            if(!answeArray[3].classList.contains('inactive')){
+                                answeArray[3].classList.add('inactive');
+                                elementsAsArray[3].classList.remove('arrowReverse');
+                                questionsArray[3].classList.remove('boldQuestion');
+                            }
+                           
+                                                             
+                            break;         
     }
 }
 
