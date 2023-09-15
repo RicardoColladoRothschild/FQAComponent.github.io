@@ -150,9 +150,9 @@ main .question-container .lastBox {
     display: none;
   }
   main .desktop-magic-box {
-    width: 35px;
-    height: 35px;
     display: block;
+    width: 25px;
+    height: 25px;
     position: absolute;
     left: -85px;
     top: 175px;
